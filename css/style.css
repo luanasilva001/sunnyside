@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+/* comeco menu */
+header{
+    height: 100vh;
+    background-image: url("../imgs/desktop/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-central{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 7px;
+    font-size: 2.4375em;
+    padding-top: 90px;
+    color: hsl(0, 0%, 100%);
+}
+
+.flecha{
+    margin-left: 106vh;
+    margin-top: 6em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-vertical {
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.menu{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* a{
+    color: hsl(0, 0%, 100%);
+} */
+
+#contact a{
+    color: hsl(212, 27%, 19%);
+}
+
+#contact {
+    background-color: #fff;
+    color: #000;
+    border-radius: 26px;
+    width: 92px;
+    height: 29px;
+    text-align: center;
+    padding-top: 13px;
+
+    /* topo | direita | inferior | esquerda */
+    margin: -9px 19px 0 0;
+
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* fim do menu navegacao */
+
+
+/* secao imagens copo e ovo */
+.information-eggs, .information-cup {
+    margin: auto;
+}
+
+.image-eggs img, .image-cup img {
+    width: 108vh;
+} 
+
+.information-eggs h2, 
+.information-cup h2{
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    font-size: 1.875em;
+    padding-bottom: 25px;
+    color:  hsl(212, 27%, 19%);
+    line-height: 37px;
+}
+
+.information-eggs p, .information-cup p{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    line-height: 27px;
+}
+
+.information-cup p{
+    text-align: left;
+}
+
+.learn-more{
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    padding-top: 25px;
+    color: #000;
+}
+
+.learn-more a:visited {
+    color: #000;
+}
+
+.egg-border, .cup-border{
+    width: 115px;
+}
+
+.egg-border{
+    border-bottom: 2px solid hsl(51, 100%, 49%);
+}
+
+.cup-border{
+    border-bottom: 2px solid hsl(7, 99%, 70%)
+}
+/* fim secao imagens copo e ovo*/
+
+/* comeco sessao imagem cereja e tangerina */
+.texto-central-imagens-cereja, .texto-central-imagens-tangerina{
+    align-items: center;
+    text-align: center;
+    margin: 65% auto;
+}
+
+.cereja{
+    background-image: url("../imgs/desktop/image-graphic-design.jpg");
+}
+
+.tangerina{
+    background-image: url("../imgs/desktop/image-photography.jpg");
+}
+
+.cereja, .tangerina{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 108vh;
+    height: 97vh;
+}
+
+.cereja h2, .tangerina h2{
+    font-size: 1.875em;
+    font-family: 'Fraunces', serif;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: hsl(167, 40%, 24%)
+    /* line-height: 27px; */
+}
+
+.cereja p, .tangerina p{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 20px;
+    /* font-weight: 900; */
+    color: hsl(198, 62%, 26%);
+    line-height: 27px;
+}
+/* fim sessao imagem cereja e tangerina */
+
+/* comeco depoimentos dos clientes */
+.depoimentos{
+  margin: auto;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.depoimentos h3{
+    padding-bottom: 3em;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+    font-size: 1.125em;
+    color: hsl(232, 10%, 55%);
+    /* padding-top: 90px; */
+}
+
+.clients img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+.clients{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%)
+}
+
+.nome-do-cliente{
+    font-family: 'Fraunces', serif;
+    padding-top: 2em;
+    color: hsl(212, 27%, 19%);
+}
+
+.profissao-cliente {
+    font-size: 0.8125em;
+    color:  hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+     /* topo | direita | inferior | esquerda */
+    margin: 15px 0 8em 0;
+}
+/* fim depoimentos dos clientes */
+
+/* comeco imagens aleatorias */
+.imagens img{
+  width: 25%;
+}
+/* fim iamgens aleatorias */
+
+/* começo footer */
+footer{
+    height: 260px;
+    background-color: #90D4C5;
+    flex-direction: column;
+}
+
+.footer-logo{
+    /* margin: auto;     */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: hsl(168, 34%, 41%);
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: auto;
+    padding-top: 50px;
+    
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: hsl(168, 34%, 41%);
+}
+
+.footer-redes-sociais ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 50px;
+}
+.footer-menu ul a:visited {
+    color: hsl(168, 34%, 41%);;
+}
